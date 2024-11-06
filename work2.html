@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        thead td { border-color:blue;}
+        tbody td{border-color:bgcolor; }
+       td small{border-color:lightskyblue;}
+        tfoot td{border-color:orangered;}
+h1{border-color:palevioletred;}
+</style>
+</head>
+<body>
+    <table border="3"  align="center" width="50%" >
+        <thead bgcolor="lightblue"  align="CENTER" >
+            <tr>
+                <TD colspan="3" >HEADER</TD></tr>
+        </thead>
+        <tbody align="CENTER" bordercolor="bgcolor">
+            <h1>
+            <TR bgcolor="pink" ><TD colspan="3">PATTH</TD></TR>
+            <tr bgcolor="yellow"><TD colspan="3">DOCKTOP</TD></tr></h1>
+            <TR>
+                <TD rowspan="2" bgcolor="LIGHTPINK">DOCKLEFT</TD>
+                <TD bgcolor="VIOLET">ERROR</TD>
+                <td rowspan="2" bgcolor="LIGHTgreen">DOCKRIGHT <BR>
+                    <SMALL>Hidden by default</SMALL>
+                </td>
+
+            </TR>
+           
+            <TR>
+                <TD bgcolor="GRAY">CONTENT</TD>
+            </TR>
+            <TR>
+                <TD colspan="3" bgcolor="lightskyblue">DOCKBOTTOM <small>Hidden by default</small></TD>
+            </TR>
+        </TBody>
+        <TFoot align="CENTER">
+            <TD colspan="3" bgcolor="orange" bordercolor="LIGHTPINK">FOOTER</TD>
+        </TFoot>
+    </table>
+</body>
+</html>
